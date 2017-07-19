@@ -1,5 +1,5 @@
 {
-    "name": "cn13/yii2-bootree",
+    "name": "cn13/yii2/tree",
     "description": "Tree",
     "type": "library",
     "authors": [
@@ -13,7 +13,7 @@
     "require": {},
 	"autoload": {
 		"psr-4": {
-		  "Bootree\\": "src"
+		  "Tree\\": "src"
 		}
 	}
 }
