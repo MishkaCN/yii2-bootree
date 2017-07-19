@@ -1,7 +1,9 @@
 {
     "name": "cn13/yii2-tree",
     "description": "Tree",
-    "type": "library",
+	"keywords": ["yii2", "tree", "botstrap-tree"],
+    "type": "yii2-extension",
+	"license": "LGPL",
     "authors": [
         {
             "name": "Mikhail Narzyaev",
@@ -10,10 +12,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+	"require": {
+		"php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
 	"autoload": {
 		"psr-4": {
-		  "Tree\\": "src"
+		  "cn13\\yii2\\": "src",
+		  "files": ["src/Tree.php"]
 		}
 	}
 }
