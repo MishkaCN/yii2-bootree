@@ -18,8 +18,7 @@
     },
 	"autoload": {
 		"psr-4": {
-		  "cn13\\yii2\\": "src",
-		  "files": ["src/Tree.php"]
+		  "cn13\\yii2\\": "src"
 		}
 	}
 }
